@@ -11,7 +11,7 @@ const expressConfig = {
 };
 
 const appConfig = {
-    weatherHost: 'api.openweathermap.org'
+    weatherHost: (global.nocked ? 'localhost:3000/mocked-api/api.openweathermap.org' : 'api.openweathermap.org')
 };
 
 module.exports = {appConfig, expressConfig};
