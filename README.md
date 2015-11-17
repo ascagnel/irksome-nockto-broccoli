@@ -3,4 +3,3 @@ This is a small playground project that gets the weather from OpenWeatherMap and
 Some libraries I've played with/will play with:
 
 *  Nock
-* 
